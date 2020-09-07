@@ -5,7 +5,7 @@ module.exports = {
 	name: 'profile',
 	description: 'Ping!',
 	async execute(message, args, client) {
-        url = 'https://api.libertius.com/api/player/getPlayerByID.php?id=' + args[0];
+        url = 'https://api.libertius.com/player/getPlayerByID.php?id=' + args[0];
         requests(url,{ json: true }, (err,res,body) => {
             if (err){ message.channel.send("There was an error getting the to the server"); return;}
             if(body['message'] === "player does not exist.") {message.channel.send(body['message']); return;}
