@@ -1,0 +1,26 @@
+{
+  "name": "discordjsbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node ./bot2.js",
+    "dev": "nodemon ./bot2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ansi-colors": "^4.1.1",
+    "array-sort": "^1.0.0",
+    "base64-img": "^1.0.4",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "popyt": "^4.1.1",
+    "request": "^2.88.2",
+    "table": "^6.0.3",
+    "text-to-image": "^2.3.0",
+    "youtube-search": "^1.1.4",
+    "yt-search": "^1.1.2"
+  }
+}
